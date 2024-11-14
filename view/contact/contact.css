@@ -1,0 +1,122 @@
+.services {
+    padding: 3% 10% 2% 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-color: #ededed;
+
+
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.padding {
+    padding-bottom: 10%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    /* Equal distribution of available space among flex items */
+    flex-basis: 0;
+    /* Allow items to expand equally */
+    max-width: 30%;
+    /* Adjust the width of the cards as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    margin: 10px;
+}
+
+.icon i {
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Optional: Include Font Awesome for icons (you can use other icon libraries or custom icons) */
+.icon i {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.47;
+    margin-bottom: 5%;
+}
+
+.card {
+    max-width: 100%;
+    /* Allow the card to be as wide as its container */
+    padding: 10px;
+    margin: 20px 2%;
+    /* Use percentage for margin to adapt to different screen sizes */
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+.card1 {
+    margin: 20px 25px 20px 25px;
+}
+
+p {
+    margin-top: 6%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        display: none;
+        /* Hide cards when the screen width is 768px or smaller */
+    }
+}
+
+@media (max-width: 650px) {
+    .extra_content {
+        display: none;
+    }
+
+    #read_more {
+        display: block;
+    }
+}
+
+.read_more {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+
+#service {
+    margin-top: 5%;
+}
+
+
+.card {
+    transition: all 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border: 1px solid #d0d0d0;
+}

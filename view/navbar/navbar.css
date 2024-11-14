@@ -1,0 +1,36 @@
+.search-bar {
+    size: 30;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+
+ul li {
+    margin: 0 10px;
+}
+
+
+ul li:hover {
+    background-color: #f8f9fa;
+    color: red;
+}
+.nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu .dropdown-item {
+    margin: 0;
+}
+
