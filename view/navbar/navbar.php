@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 
 <head>
     <link rel="stylesheet" href="./view/navbar/navbar.css">
